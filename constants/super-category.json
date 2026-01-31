@@ -1,0 +1,998 @@
+{
+  "body": {
+    "pageResponseDto": {
+      "name": "CategoryTabPage",
+      "pageInstanceId": "22fbbb20-6c75-4019-b317-286572ed0014",
+      "componentMap": {
+        "dc76aa05e549cb03a7605b5e7e04564d": {
+          "instanceId": "dc76aa05e549cb03a7605b5e7e04564d",
+          "name": "WB-Category Tab Left Panel V3Component",
+          "data": {
+            "colCount": 9,
+            "rank": 1,
+            "rowCount": 1,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Categories",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN003042_Image_category_buttons_round_LARGE.png",
+              "rank": 1,
+              "categoryName": "Featured",
+              "categoryId": "BAN003042_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000709_Image_category_buttons_round_LARGE.png",
+              "rank": 2,
+              "categoryName": "Fruits & Vegetables",
+              "categoryId": "BAN000709_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000710_Image_category_buttons_round_LARGE.png",
+              "rank": 3,
+              "categoryName": "Breads, Dairy & Eggs",
+              "categoryId": "BAN000710_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000712_Image_category_buttons_round_LARGE.png",
+              "rank": 4,
+              "categoryName": "Staples",
+              "categoryId": "BAN000712_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN002235_Image_category_buttons_round_LARGE.png",
+              "rank": 5,
+              "categoryName": "Kids Food & Nutrition",
+              "categoryId": "BAN002235_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN001968_Image_category_buttons_round_LARGE.png",
+              "rank": 6,
+              "categoryName": "Packaged Foods",
+              "categoryId": "BAN001968_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN002483_Image_category_buttons_round_LARGE.png",
+              "rank": 7,
+              "categoryName": "Snacks & More",
+              "categoryId": "BAN002483_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN002141_Image_category_buttons_round_LARGE.png",
+              "rank": 8,
+              "categoryName": "Health Supplements",
+              "categoryId": "BAN002141_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN003147_Image_category_buttons_round_LARGE.png",
+              "rank": 9,
+              "categoryName": "Cleaning Essentials",
+              "categoryId": "BAN003147_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "4813bec17bceccddf33e6d7dc1ccd06d"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "f1470b054c0aa022a959690e8ce86589": {
+          "instanceId": "f1470b054c0aa022a959690e8ce86589",
+          "name": "WB-Category Tab - FeaturedComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 2,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Featured",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "d703f1e2-d0e7-48eb-8bbb-59fd0091c851",
+              "ctaType": "PAGE",
+              "pageType": "StoreInStore",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/4994d8cd-c677-4ba2-a2e8-c1b70e2a14c5.png",
+              "displayName": "Kids Fav",
+              "rank": 1,
+              "categoryId": "L2B251112358",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "91f7a09c-d8b0-4ba5-9ad5-9ace61ac607a",
+              "ctaType": "PAGE",
+              "pageType": "StoreInStore",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/7164e53f-fcf1-4114-83e6-4a6e8b23baa8.png",
+              "displayName": "Best Of Rice",
+              "rank": 2,
+              "categoryId": "L2B251111356",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "Provilac NEW",
+              "ctaType": "CURATION",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/be25b2e8-3d84-4920-b400-3966ba16169a.png",
+              "displayName": "Provilac",
+              "rank": 3,
+              "categoryId": "L2B251110348",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000565_Image_category_buttons_round_LARGE.png",
+              "rank": 4,
+              "categoryId": "BAN000565_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "bb5be80067cf99b9f342f7dbcfec357a"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "cf59171aa53ef3926072e58eb753a605": {
+          "instanceId": "cf59171aa53ef3926072e58eb753a605",
+          "name": "WB-Category Tab - Fresh Fruits & VegetablesComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 4,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Fruits & Vegetables",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/4f1fd96a-dae1-44d0-b101-432ba2cc502a.png",
+              "displayName": "Fresh Vegetables",
+              "rank": 1,
+              "categoryId": "L2B250519005",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/28094908-ab15-42d6-b7f8-47e0cbe6f270.png",
+              "displayName": "Fresh Fruits",
+              "rank": 2,
+              "categoryId": "L2B250519007",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/d2e630f8-5b43-4abd-b1fe-498563a53e8e.png",
+              "displayName": "Cut Fruits & Veggies",
+              "rank": 6,
+              "categoryId": "L2B250519013",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/b5cbc8f2-28e2-4656-aad0-df4ee663673e.png",
+              "displayName": "Organic & more",
+              "rank": 3,
+              "categoryId": "L2B250519014",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/cdaf46a2-978f-48f4-8c49-429f7646cde0.png",
+              "displayName": "Leafies & Herbs",
+              "rank": 4,
+              "categoryId": "L2B250519010",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/cf808c55-01b3-4a2c-bf40-354a2154ad39.png",
+              "displayName": "Exotic Fruits & Vegetables",
+              "rank": 5,
+              "categoryId": "L2B250519009",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/57eb5f9b-2a1e-4c44-9028-de4282c243e7.png",
+              "displayName": "Fresh Juices",
+              "rank": 7,
+              "categoryId": "L2B250705084",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/2878d456-b4ca-4166-bfce-8d4c60240a56.png",
+              "displayName": "Frozen Fruits & Veggies",
+              "rank": 8,
+              "categoryId": "L2B250712085",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "cac082d451873879f7f66e931ee5bde0"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "aeed630364788f43024055a0a4eeb062": {
+          "instanceId": "aeed630364788f43024055a0a4eeb062",
+          "name": "WB-Category Tab - Breads, Dairy & EggsComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 6,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Breads, Dairy & Eggs",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/21526814-603c-4d1e-830a-137c7fa81e2d.png",
+              "displayName": "Breads & Bakery",
+              "rank": 1,
+              "categoryId": "L2B250519016",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/4f318c8c-cf5a-450c-b09e-929a479f127a.png",
+              "displayName": "Milk",
+              "rank": 2,
+              "categoryId": "L2B250519018",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/e02d7f37-4625-4444-aa42-64509398db6d.png",
+              "displayName": "Curd",
+              "rank": 3,
+              "categoryId": "L2B250519015",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/e62b17f5-9e2b-4d39-b2eb-74b31ca983f6.png",
+              "displayName": "Eggs",
+              "rank": 4,
+              "categoryId": "L2B250519004",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/35a2943e-6011-47df-a1df-cff9fb28893e.png",
+              "displayName": "Cheese",
+              "rank": 5,
+              "categoryId": "L2B250519017",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/3077b897-0ab9-4062-bfce-b9fdd37e3e31.png",
+              "displayName": "Paneer",
+              "rank": 6,
+              "categoryId": "L2B250519008",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/46c1d88a-51f7-41ca-bb4a-1bd09a7bc4c5.png",
+              "displayName": "Butter",
+              "rank": 7,
+              "categoryId": "L2B250519019",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/1b434b02-4937-4202-8351-54cd09070ea5.png",
+              "displayName": "Yogurt",
+              "rank": 8,
+              "categoryId": "L2B250519012",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/3ba037fc-bf1b-428b-9d1c-f2e2a63ed50c.png",
+              "displayName": "Ghee",
+              "rank": 9,
+              "categoryId": "L2B250523021",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/74594b70-911d-40a3-bdf0-52849c56c26a.png",
+              "displayName": "Tofu & Tempeh",
+              "rank": 10,
+              "categoryId": "L2B250519006",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/8a496153-0e1a-48b3-b7a0-fb44bbbbc22f.png",
+              "displayName": "Buttermilk & Lassi",
+              "rank": 11,
+              "categoryId": "L2B250519020",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/c2060ec9-7041-45b7-b566-745e19c7563d.png",
+              "displayName": "Dairy Alternatives",
+              "rank": 12,
+              "categoryId": "L2B250519003",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "0a04aed772645db7cec6c33106188346"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "b7d52c7bb3381a538d41a3aab9bfc6a3": {
+          "instanceId": "b7d52c7bb3381a538d41a3aab9bfc6a3",
+          "name": "WB-Category Tab - GroceriesComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 6,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Staples",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/332bade1-2c11-4427-b0a6-963640a955b0.png",
+              "displayName": "Rice",
+              "rank": 1,
+              "categoryId": "L2B250524022",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/7c01db18-b4b9-4f76-932b-effba17fbd09.png",
+              "displayName": "Dals",
+              "rank": 2,
+              "categoryId": "L2B250524023",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/ac1490ca-29af-49df-9ce0-df4b6fee5433.png",
+              "displayName": "Millets & Grains",
+              "rank": 3,
+              "categoryId": "L2B250524024",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/575d8f7e-1ea2-43c1-beb7-1a1849845ccd.png",
+              "displayName": "Flours",
+              "rank": 4,
+              "categoryId": "L2B250524025",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/7bc902b5-65bc-4e93-8740-1f26a23cf8c2.png",
+              "displayName": "Nuts, Seeds & Mixes",
+              "rank": 5,
+              "categoryId": "L2B250531032",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/b361de3e-41cc-438e-80e8-9eddbdfc15cf.png",
+              "displayName": "Dates & Raisins",
+              "rank": 6,
+              "categoryId": "L2B250531033",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/4f6badb7-1e81-4e13-bb5b-4569c85e0d0f.png",
+              "displayName": "Salt and Sweeteners",
+              "rank": 7,
+              "categoryId": "L2B250704083",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/10263c4b-7d40-4a5d-9036-e9e98d2aed07.png",
+              "displayName": "Oils",
+              "rank": 8,
+              "categoryId": "L2B250524028",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/943c62b6-ff00-416b-97df-98e6fe135351.png",
+              "displayName": "Spices",
+              "rank": 9,
+              "categoryId": "L2B250617041",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/04b85174-d287-485f-aa0f-5816c59a2aa6.png",
+              "displayName": "Batters",
+              "rank": 10,
+              "categoryId": "L2B250524027",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/95174511-668f-4e95-8d84-8a05cae1ef2f.png",
+              "displayName": "Papad, Pickles & Chutney",
+              "rank": 11,
+              "categoryId": "L2B251010311",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000565_Image_category_buttons_round_LARGE.png",
+              "rank": 12,
+              "categoryId": "BAN000565_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "23637bf4b6f0ad8c7d341ea4fd5b4ad3"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "e4a74c04218d6abc5b48c432f78ce90e": {
+          "instanceId": "e4a74c04218d6abc5b48c432f78ce90e",
+          "name": "WB-Category Tab - Kids Food and NutritionComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 3,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Kids Food & Nutrition",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/cce36363-e86e-47c3-b300-342c22c339e4.png",
+              "displayName": "Milk & Health Mixes",
+              "rank": 1,
+              "categoryId": "L2B251027325",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/13883eea-26f2-4cf0-954c-4696a4e19ef5.png",
+              "displayName": "Ready to Cook",
+              "rank": 2,
+              "categoryId": "L2B250926289",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/0f58daca-a13e-4dfd-bb33-80bd02d30f9d.png",
+              "displayName": "Snacks & Finger Foods",
+              "rank": 3,
+              "categoryId": "L2B250926290",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/37c63945-42f8-44aa-ad5a-7fb61fce3e79.png",
+              "displayName": "Jams, Ketchups & Spreads",
+              "rank": 4,
+              "categoryId": "L2B250926291",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/dfd8623b-97e3-416c-9dd0-438a625f03c0.png",
+              "displayName": "Natural Sweeteners",
+              "rank": 5,
+              "categoryId": "L2B251027326",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/0a80bc38-2b12-4286-8160-68e26f07a493.png",
+              "displayName": "Staples & Porridge Mixes",
+              "rank": 6,
+              "categoryId": "L2B250926293",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "9c0b3507c6256a3295807740a0a16cbf"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "773fefff4dbbff433cf11ed5f0bcab06": {
+          "instanceId": "773fefff4dbbff433cf11ed5f0bcab06",
+          "name": "WB-Category Tab - Packaged FoodsComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 3,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Packaged Foods",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "4a83c2f2-03f5-403b-9823-c569bbb0d734",
+              "ctaType": "PAGE",
+              "pageType": "StoreInStore",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/72802f59-ea62-4dc9-a76d-ec9ef54a612a.png",
+              "displayName": "Tea",
+              "rank": 1,
+              "categoryId": "L2B250910222",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "42ed3d24-d35e-42b5-ada0-0a5e8027eb0d",
+              "ctaType": "PAGE",
+              "pageType": "StoreInStore",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/4097ffe9-83c5-4e61-a09d-cc4aedfb850c.png",
+              "displayName": "Coffee",
+              "rank": 2,
+              "categoryId": "L2B250704082",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/7ffe2831-998f-400c-96c6-70c5dc33bb47.png",
+              "displayName": "Spreads & Dips",
+              "rank": 3,
+              "categoryId": "L2B250621044",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/a29bc331-80af-4852-bae0-05eb17aae0ad.png",
+              "displayName": "Pasta, Noodles & Vermicelli",
+              "rank": 4,
+              "categoryId": "L2B250621043",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/d021be61-0c3d-4436-91f0-e63c1ca9b234.png",
+              "displayName": "Cereals & Breakfast",
+              "rank": 5,
+              "categoryId": "L2B250621042",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000565_Image_category_buttons_round_LARGE.png",
+              "rank": 6,
+              "categoryId": "BAN000565_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "af65afb87ec5bbd24c6bf9e00e84d516"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "041a80a40a224ad6c20c59608f9a6df7": {
+          "instanceId": "041a80a40a224ad6c20c59608f9a6df7",
+          "name": "WB-Category Tab - Snacks and MoreComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 4,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Snacks & More",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "Snacks and More v2",
+              "ctaType": "CURATION",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/964afc57-a697-4963-9e86-0814f5f0ed40.png",
+              "displayName": "Munchies & Snacks",
+              "rank": 1,
+              "categoryId": "L2B250621045",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/b33dcf1a-afc0-4cc8-8670-e8338738a9ee.png",
+              "displayName": "Chocolates",
+              "rank": 2,
+              "categoryId": "L2B250625059",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/c345bb13-4e6d-4bd1-9eb3-6830ddedd11a.png",
+              "displayName": "Bars & Bites",
+              "rank": 3,
+              "categoryId": "L2B250704081",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/13ac3f0c-0d6b-47d4-a3a8-08a8ccf72385.png",
+              "displayName": "Biscuits & Cookies",
+              "rank": 4,
+              "categoryId": "L2B250704078",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/d0dcecc0-5c7f-41ba-9165-3d149a077cbe.png",
+              "displayName": "Chikki & Date bites",
+              "rank": 5,
+              "categoryId": "L2B250821181",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/e54eb176-8944-4f85-82dd-818a4147b4a3.png",
+              "displayName": "Indian Sweets",
+              "rank": 6,
+              "categoryId": "L2B250821180",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/1de62ba5-8a52-476e-8972-c0658fa769cd.png",
+              "displayName": "Beverages",
+              "rank": 7,
+              "categoryId": "L2B250821182",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000565_Image_category_buttons_round_LARGE.png",
+              "rank": 8,
+              "categoryId": "BAN000565_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "9942da1809434b9dc612d9d911880f79"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "93004d96e8ac89d0a11a50dcbd694607": {
+          "instanceId": "93004d96e8ac89d0a11a50dcbd694607",
+          "name": "WB-Category Tab - Health & SupplementsComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 2,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Health Supplements",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/c9654104-8795-4268-a921-c98048b2b60b.png",
+              "displayName": "Protein Supplements",
+              "rank": 1,
+              "categoryId": "L2B250811169",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/582118e3-38a5-4525-bf5d-e668640ea717.png",
+              "displayName": "Nutraceuticals",
+              "rank": 2,
+              "categoryId": "L2B251015318",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/3b846301-8ae8-4c86-ae03-94e3d6edf839.png",
+              "displayName": "Adaptogens",
+              "rank": 3,
+              "categoryId": "L2B251015319",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000565_Image_category_buttons_round_LARGE.png",
+              "rank": 4,
+              "categoryId": "BAN000565_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "523f3c698b94fa1acd1efaee4fe8cd8e"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        },
+        "9d9b297babdbc5c68ca686fb4ea4f9f6": {
+          "instanceId": "9d9b297babdbc5c68ca686fb4ea4f9f6",
+          "name": "WB-Category Tab - Tissues & DisposablesComponent",
+          "data": {
+            "colCount": 2,
+            "rank": 1,
+            "rowCount": 3,
+            "widgetName": "GRID_CATEGORIES_IMAGE_ROUND",
+            "itemType": "ICON_TEXT_CLICKABLE",
+            "widgetVariant": "NXM_GRID",
+            "sticky": false,
+            "title": "Cleaning Essentials",
+            "widgetType": "CATEGORIES_GRID"
+          },
+          "componentData": [
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/2f728bd5-af26-460a-92d6-f568d64cf59d.png",
+              "displayName": "Laundry care",
+              "rank": 1,
+              "categoryId": "L2B251203390",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/202d2504-9769-4bfa-8b52-b90c6639370a.png",
+              "displayName": "Floor and Surface Cleaners",
+              "rank": 2,
+              "categoryId": "L2B251203391",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/78299bfd-cdc2-49e2-ba96-e28fccfc154c.png",
+              "displayName": "Kitchen and Utensils",
+              "rank": 3,
+              "categoryId": "L2B251204396",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/f2e7422d-1099-49be-b9b8-0f9829ec1613.png",
+              "displayName": "Bathroom Cleaners",
+              "rank": 4,
+              "categoryId": "L2B251203394",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BROWSE_CATEGORY",
+              "ctaId": "NA",
+              "displayAssetUrl": "d2t48bgn9qny2b.cloudfront.net/resolution/b610af37-b4f9-458f-af01-23874979ce67.png",
+              "displayName": "Tissues & Disposables",
+              "rank": 5,
+              "categoryId": "L2B250915254",
+              "widgetType": "CATEGORIES_GRID"
+            },
+            {
+              "categoryType": "BANNER_INFO",
+              "ctaId": "NA",
+              "displayAssetUrl": "https://d2t48bgn9qny2b.cloudfront.net/banners/BAN000565_Image_category_buttons_round_LARGE.png",
+              "rank": 6,
+              "categoryId": "BAN000565_Image_category_buttons_round_LARGE",
+              "widgetType": "CATEGORIES_GRID"
+            }
+          ],
+          "widgetGroup": {
+            "widgetInstanceId": "ffc6821408dcb0c0eb3f541474eb8bfc"
+          },
+          "layoutGroup": {
+            "layoutInstanceId": "d3b006b8026e0d8ff136bd810a13b52e"
+          }
+        }
+      },
+      "widgetGroupToComponentMap": {
+        "23637bf4b6f0ad8c7d341ea4fd5b4ad3": [
+          "b7d52c7bb3381a538d41a3aab9bfc6a3"
+        ],
+        "0a04aed772645db7cec6c33106188346": [
+          "aeed630364788f43024055a0a4eeb062"
+        ],
+        "cac082d451873879f7f66e931ee5bde0": [
+          "cf59171aa53ef3926072e58eb753a605"
+        ],
+        "ffc6821408dcb0c0eb3f541474eb8bfc": [
+          "9d9b297babdbc5c68ca686fb4ea4f9f6"
+        ],
+        "af65afb87ec5bbd24c6bf9e00e84d516": [
+          "773fefff4dbbff433cf11ed5f0bcab06"
+        ],
+        "9942da1809434b9dc612d9d911880f79": [
+          "041a80a40a224ad6c20c59608f9a6df7"
+        ],
+        "9c0b3507c6256a3295807740a0a16cbf": [
+          "e4a74c04218d6abc5b48c432f78ce90e"
+        ],
+        "bb5be80067cf99b9f342f7dbcfec357a": [
+          "f1470b054c0aa022a959690e8ce86589"
+        ],
+        "4813bec17bceccddf33e6d7dc1ccd06d": [
+          "dc76aa05e549cb03a7605b5e7e04564d"
+        ],
+        "523f3c698b94fa1acd1efaee4fe8cd8e": ["93004d96e8ac89d0a11a50dcbd694607"]
+      },
+      "layoutGroupToWidgetMap": {
+        "d3b006b8026e0d8ff136bd810a13b52e": [
+          {
+            "widgetInstanceId": "4813bec17bceccddf33e6d7dc1ccd06d"
+          },
+          {
+            "widgetInstanceId": "bb5be80067cf99b9f342f7dbcfec357a"
+          },
+          {
+            "widgetInstanceId": "cac082d451873879f7f66e931ee5bde0"
+          },
+          {
+            "widgetInstanceId": "0a04aed772645db7cec6c33106188346"
+          },
+          {
+            "widgetInstanceId": "23637bf4b6f0ad8c7d341ea4fd5b4ad3"
+          },
+          {
+            "widgetInstanceId": "9c0b3507c6256a3295807740a0a16cbf"
+          },
+          {
+            "widgetInstanceId": "af65afb87ec5bbd24c6bf9e00e84d516"
+          },
+          {
+            "widgetInstanceId": "9942da1809434b9dc612d9d911880f79"
+          },
+          {
+            "widgetInstanceId": "523f3c698b94fa1acd1efaee4fe8cd8e"
+          },
+          {
+            "widgetInstanceId": "ffc6821408dcb0c0eb3f541474eb8bfc"
+          }
+        ]
+      },
+      "layoutGroupToComponentMap": {
+        "d3b006b8026e0d8ff136bd810a13b52e": [
+          "dc76aa05e549cb03a7605b5e7e04564d",
+          "f1470b054c0aa022a959690e8ce86589",
+          "cf59171aa53ef3926072e58eb753a605",
+          "aeed630364788f43024055a0a4eeb062",
+          "b7d52c7bb3381a538d41a3aab9bfc6a3",
+          "e4a74c04218d6abc5b48c432f78ce90e",
+          "773fefff4dbbff433cf11ed5f0bcab06",
+          "041a80a40a224ad6c20c59608f9a6df7",
+          "93004d96e8ac89d0a11a50dcbd694607",
+          "9d9b297babdbc5c68ca686fb4ea4f9f6"
+        ]
+      }
+    }
+  },
+  "success": true
+}
