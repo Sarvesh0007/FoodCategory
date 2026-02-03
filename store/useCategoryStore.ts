@@ -14,6 +14,21 @@ const SUPER_CATEGORY_COMPONENT_MAP: Record<string, string> = {
   "Cleaning Essentials": "WB-Category Tab - Tissues & DisposablesComponent",
 };
 
+function getCategoriesForSuperCategory(
+  superCategory: SuperCategory,
+): Category[] {
+  const superCategoryData = require("../constants/super-category.json");
+  if (!superCategoryData?.body?.pageResponseDto?.componentMap) {
+    return [];
+  }
+  const componentName =
+    SUPER_CATEGORY_COMPONENT_MAP[superCategory.categoryName];
+  const categoryComponent = Object.values(
+    superCategoryData.body.pageResponseDto.componentMap,
+  ).find((comp: any) => comp.name === componentName);
+  return (categoryComponent as any)?.componentData || [];
+}
+
 interface CategoryState {
   // Static data (loaded once)
   superCategories: SuperCategory[];
@@ -76,18 +91,9 @@ export const useCategoryStore = create<CategoryState>((set, get) => ({
       return;
     }
 
-    // Set first super category as default
+    // Set first super category as default and load its categories
     const firstSuperCategory = superCategories[0];
-    const componentName =
-      SUPER_CATEGORY_COMPONENT_MAP[firstSuperCategory.categoryName];
-
-    // Extract categories for the first super category
-    const categoryComponent = Object.values(
-      superCategoryData.body.pageResponseDto.componentMap,
-    ).find((comp: any) => comp.name === componentName);
-
-    const categories: Category[] =
-      (categoryComponent as any)?.componentData || [];
+    const categories = getCategoriesForSuperCategory(firstSuperCategory);
 
     set({
       superCategories,
@@ -106,23 +112,8 @@ export const useCategoryStore = create<CategoryState>((set, get) => ({
     );
 
     if (!targetSuperCategory) return;
-    const componentName =
-      SUPER_CATEGORY_COMPONENT_MAP[targetSuperCategory.categoryName];
 
-    // Load JSON data
-    const superCategoryData = require("../constants/super-category.json");
-
-    if (!superCategoryData?.body?.pageResponseDto?.componentMap) {
-      console.error("Super category data not available");
-      return;
-    }
-
-    const categoryComponent = Object.values(
-      superCategoryData.body.pageResponseDto.componentMap,
-    ).find((comp: any) => comp.name === componentName);
-
-    const categories: Category[] =
-      (categoryComponent as any)?.componentData || [];
+    const categories = getCategoriesForSuperCategory(targetSuperCategory);
 
     set({
       selectedSuperCategoryId: id,
